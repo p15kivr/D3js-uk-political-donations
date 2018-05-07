@@ -408,7 +408,7 @@ function mouseover(d, i) {
 		.html(infoBox)
 			.style("display","block");	
 	
-	var imageDonor = document.createElement("imgDonor");
+	var imageDonor = document.createElement("imageDonor");
   	imageDonor.src = imageFile;
   	imageDonor.width = 50;
   	imageDonor.height = 50;
