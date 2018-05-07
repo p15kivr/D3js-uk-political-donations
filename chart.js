@@ -412,7 +412,7 @@ function mouseover(d, i) {
   	imageDonor.src = imageFile;
   	imageDonor.width = 50;
   	imageDonor.height = 50;
-	document.body.appendChild(imgDonor);
+	document.body.appendChild(imageDonor);
 	}
 
 function mouseout() {
