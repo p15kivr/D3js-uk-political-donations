@@ -410,8 +410,8 @@ function mouseover(d, i) {
 	
 	var imageDonor = document.createElement("imageDonor");
   	imageDonor.src = imageFile;
-  	imageDonor.width = 50;
-  	imageDonor.height = 50;
+  	imageDonor.width = 42;
+  	imageDonor.height = 42;
 	document.body.appendChild(imageDonor);
 	}
 
