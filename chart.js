@@ -408,11 +408,11 @@ function mouseover(d, i) {
 		.html(infoBox)
 			.style("display","block");	
 	
-	var img = document.createElement("img");
-  	img.src = imageFile;
-  	img.width = 42;
-  	img.height = 42;
-	document.body.appendChild(img);
+	var imageDonor = document.createElement("imgDonor");
+  	imageDonor.src = imageFile;
+  	imageDonor.width = 50;
+  	imageDonor.height = 50;
+	document.body.appendChild(imgDonor);
 	}
 
 function mouseout() {
